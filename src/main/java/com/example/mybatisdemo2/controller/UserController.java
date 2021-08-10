@@ -40,6 +40,7 @@ public class UserController {
     /*test1 branches*/
     /*test2 branches*/
     /*test3 branches*/
+    /*test4*/
     @GetMapping("/selectAll")
     public List<UserDomain> selectAll( ){
         return  userService.selectAll();
