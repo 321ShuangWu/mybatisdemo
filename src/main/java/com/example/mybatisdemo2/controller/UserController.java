@@ -37,6 +37,7 @@ public class UserController {
         return  userService.updateUser(old);
     }
 
+    /*test branches*/
     @GetMapping("/selectAll")
     public List<UserDomain> selectAll( ){
         return  userService.selectAll();
